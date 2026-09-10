@@ -1,3 +1,4 @@
 # Normalize all text to LF in the repo and working tree so the compiled
 # device/code output diffs cleanly between Windows checkouts and Linux CI.
 * text=auto eol=lf
+*.amxd binary

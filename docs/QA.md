@@ -84,4 +84,16 @@ them without freezing or misrendering.
 
 ---
 
-*Phase 1 spike steps land here next.*
+## B. Phase 1 de-risk spikes
+
+### QA-5: Spike 1 — v8 loads compiled code
+
+Follow **Spike 1** in `device/patching-instructions.md` (about 10 minutes).
+
+**Pass:** the Max Console shows `v8 alive`, `require OK, luminance(white)=1`,
+and a `typeof exports=…, typeof module=…` line. Report that third line
+verbatim.
+**Fail:** any `require FAILED` line, or the `v8` box cannot find the file —
+report the exact console text.
+
+*Spikes 2–5 are added here as each one becomes runnable.*
